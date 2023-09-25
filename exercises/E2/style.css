@@ -1,0 +1,17 @@
+.painting-1 {
+    width: 600px;
+    height: 600px;
+    border: 1px soild black;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+
+}
+
+.section-1 {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 4;
+    background: #FFF9E7;
+    border-right: 15px solid black;
+    border-bottom: 15px solid black;
+}
