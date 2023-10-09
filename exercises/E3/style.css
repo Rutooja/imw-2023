@@ -1,8 +1,60 @@
-/* adobe font */
-.lets-go {
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+}
+
+
+/* adobe font espiritu type font*/
+.tilt {
     font-size: 72px;
     font-family: "espiritu", sans-serif;
     font-weight: 400;
     font-style: normal;
+    transition: 0.2s;
+    text-align: right;
+
 }
 
+.tilt:hover {
+    transform: skew(50deg);
+
+}
+
+/* Google fonts  */
+.dissolve {
+    font-size: 72px;
+    font-family: 'Pixelify Sans', sans-serif;
+    transition: 0.2s;
+    text-align: justify;
+    padding: 100px;
+}
+
+.dissolve:hover {
+    opacity: 0;
+}
+
+
+
+/* custom font - metaflop  */
+@font-face {
+    font-family: 'Bespoke';
+    src: url('customfont/Bespoke-nm_v-Wdzy1.eot');
+    src: url('customfont/Bespoke-nm_v-Wdzy1.eot?#iefix') format('embedded-opentype'),
+        url('customfont/Bespoke-nm_v-Wdzy1.woff') format('woff'),
+        url('customfont/Bespoke-nm_v-Wdzy1.ttf') format('truetype'),
+        url('customfont/Bespoke-nm_v-Wdzy1.svg#Bespoke-nm_v-Wdzy1') format('svg');
+}
+
+/* we can define the name of the font family since its self hosted */
+.jump {
+    font-size: 72px;
+    font-family: 'Bespoke', sans-serif;
+}
+
+.jump:hover {
+    font-size: 100px;
+    color: red;
+}
