@@ -1,0 +1,169 @@
+/* the * is for the whole code - it removes the default spacing  */
+
+* {
+    padding: 0;
+    margin: 0;
+    /* box border is for aligning --- but cross check */
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #F5D5EE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 700px;
+    height: 103px;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    /* to remove the exisiting bullet points of links */
+    list-style-type: none;
+}
+
+/* to make the links in one line */
+ul li {
+    display: inline;
+
+}
+
+/* to remove the underline it is text-decoration
+and to remove the default colour, set colour to black */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    width: 700px;
+    background: white;
+    border: 1px solid black;
+}
+
+footer {
+    width: auto;
+    height: 129px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: space-between;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.page {
+    margin: auto;
+    width: 700px;
+    padding-top: 68px;
+}
+
+.site-title {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.nav-links {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info-section-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.info-section {
+    height: 319px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.info-cta {
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration-line: underline;
+}
+
+.compelling-box {
+    height: 347px;
+    width: auto;
+    border: 1px solid black;
+}
+
+.compelling-text {
+    text-align: center;
+    font-style: normal;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 72px;
+    padding-top: 45px;
+    /* padding-bottom: 86px; */
+    padding-right: 134px;
+    padding-left: 134px;
+}
+
+.compelling-text-cta {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding-bottom: 90px;
+    padding-left: 290px;
+    padding-right: 290px;
+}
+
+.intro-next-box {
+    height: 113px;
+    border: 1px solid black;
+}
+
+.intro-next-text {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 37px;
+    text-align: center;
+}
+
+.site-outro {
+    font-size: 10px;
+    font-weight: 400;
+    width: 136px;
+}
+
+.social-media {
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: space-between;
+    padding-right: 29px;
+    align-content: center;
+}
+
+.footer-links {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: right;
+}
