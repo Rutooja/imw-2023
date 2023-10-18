@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFDFDA;
+}
+
+.text {
+    position: fixed;
+    justify-content: center;
+    top: 600px;
+    right: 640px;
+    align-items: center;
+    color: #B1004B;
+}
+
+.next {
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    color: #B1004B;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.circle1 {
+    width: 550px;
+    height: 550px;
+    background: #F1A19A;
+    border-radius: 50%;
+    position: fixed;
+    top: -220px;
+    left: -220px;
+}
+
+.circle2 {
+    width: 550px;
+    height: 550px;
+    background: #F1A19A;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -220px;
+    right: -220px;
+}
+
+.holder {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: #ECB891;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.cake {
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: #B1004B;
+    z-index: 2;
+    /* border-radius: 10px solid #F1A19A; */
+    /* box-shadow: inset 10px -10px rgb(215, 127, 148); */
+}
+
+.cake::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    left: 12px;
+    top: 12px;
+    border-radius: 50%;
+    background-color: #F1A19A;
+    z-index: 3;
+}
+
+.cake-topping {
+    position: absolute;
+    z-index: 4;
+}
+
+/* 
+.c1 {
+    width: 10px;
+    height: 10px;
+    background: #F1A19A;
+    border-radius: 50%;
+    position: fixed;
+    top: 220px;
+    right: 220px;
+} */
+
+
+.heart-1 {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    transform: rotate(15deg);
+    top: -35px;
+    right: 15px;
+}
+
+.heart-1:before,
+.heart-1:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #B1004B;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heart-1:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+.heart-2 {
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    transform: rotate(-55deg);
+    top: -20px;
+    right: 50px;
+}
+
+.heart-2:before,
+.heart-2:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #ce5b70;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heart-2:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+/* 
+.knife {
+    width: 200px;
+    height: 100px;
+    background: red;
+} */
