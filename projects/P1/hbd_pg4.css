@@ -76,6 +76,8 @@ body {
     z-index: 3;
 }
 
+/* top icing of cake */
+
 .cake::before {
     content: "";
     position: relative;
@@ -187,5 +189,4 @@ body {
     border-radius: 50%;
     z-index: 5;
     transform: rotate(0deg);
-
 }

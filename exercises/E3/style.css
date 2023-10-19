@@ -15,12 +15,11 @@ body {
     font-style: normal;
     transition: 0.2s;
     text-align: right;
-
 }
+
 
 .tilt:hover {
     transform: skew(50deg);
-
 }
 
 /* Google fonts  */
@@ -35,7 +34,6 @@ body {
 .dissolve:hover {
     opacity: 0;
 }
-
 
 
 /* custom font - metaflop  */
