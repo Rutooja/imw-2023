@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #435D41;
+    cursor: pointer;
+}
+
+main {
+    margin-left: 15px;
+}
+
+/* what comes after the enviornment header - the black box - defining its position */
+
+header {
+    width: 790px;
+    height: 250px;
+    /* width: 50rem;
+    height: 15rem; */
+    border: 1px solid black;
+    background: #435D41;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+/* what comes after the enviornment - text */
+h1 {
+    font-size: 90px;
+    text-align: center;
+    color: white;
+    font-weight: 900px;
+}
+
+/* guest speakers */
+h2 {
+    /* border: 1px solid black; */
+    width: 790px;
+    color: #435D41;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+footer {
+    width: 790px;
+    font-size: 16px;
+    color: #5B6E5A;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+/* left side of the screen */
+.cont-1 {
+    height: 170vh;
+    width: 65%;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Shadows Into Light', cursive; */
+    background-color: #F2EDDA;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+/* right side of the screen */
+
+.cont-2 {
+    height: 100vh;
+    width: 35%;
+    font-family: 'Lato', sans-serif;
+    background-color: #E4E8DA;
+    position: fixed;
+    padding: 50px;
+    right: 0px;
+}
+
+/* information about the event */
+.main-1 {
+    width: 790px;
+    height: 65px;
+    /* border: 1px solid black; */
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #435D41;
+    /* padding-top: 70px; */
+    margin-top: 50px;
+}
+
+.rta {
+    text-decoration: underline;
+}
+
+.speaker-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #C05E51;
+    cursor: pointer;
+}
+
+.speaker-name:hover {
+    color: #F5C266;
+    animation-timing-function: ease;
+}
+
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 1px solid black; */
+    width: 790px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.speaker-info {
+    width: 380px;
+    /* border: 1px solid black; */
+}
+
+.speaker-bio {
+    font-size: 25px;
+    font-weight: 350;
+    color: #5B6E5A;
+}
+
+.description {
+    width: 790px;
+    font-size: 22px;
+    font-weight: 350;
+    color: #5B6E5A;
+}
+
+.words {
+    color: #435D41;
+    font-family: 'Black Ops One', sans-serif;
+    opacity: 80%;
+}
+
+
+.carbon-emissions {
+    font-size: 42px;
+    padding-left: 0%;
+}
+
+.carbon-emissions:hover {
+    color: #C05E51;
+}
+
+.fossil-fuel {
+    font-size: 55px;
+    padding-left: 85px;
+
+}
+
+.fossil-fuel:hover {
+
+    color: #C05E51;
+}
+
+/* .economy {
+    font-size: 30px;
+    padding-left: 55px;
+    opacity: 80%;
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+} */
+
+.env {
+    font-size: 22px;
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+    padding: 5px;
+}
+
+.env:hover {
+    color: #C05E51;
+}
+
+.role {
+    font-size: 15px;
+    justify-content: right;
+    align-items: right;
+    display: flex;
+    padding: 15px;
+}
+
+.role:hover {
+    color: #C05E51;
+}
+
+.cons {
+    font-size: 55px;
+}
+
+.cons:hover {
+    color: #C05E51;
+}
+
+.global-warming {
+    font-size: 25px;
+    justify-content: right;
+    align-items: right;
+    display: flex;
+    padding: 15px;
+}
+
+.global-warming:hover {
+    color: #C05E51;
+}
+
+.exp {
+    font-size: 25px;
+}
+
+.exp:hover {
+    color: #C05E51;
+}
+
+.fatalism {
+    font-size: 40px;
+    padding-left: 35px;
+    padding: 15px;
+}
+
+.fatalism:hover {
+    color: #C05E51;
+}
+
+.col {
+    font-size: 20px;
+    justify-content: right;
+    align-items: right;
+    display: flex;
+}
+
+.col:hover {
+    color: #C05E51;
+}
+
+.climate {
+    font-size: 35px;
+    padding: 15px;
+}
+
+.climate:hover {
+    color: #C05E51;
+}
+
+/* get tickets */
+
+.btn-position {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.button {
+    background-color: #C05E51;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 300px;
+    height: 80px;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.last-line {
+    color: #5B6E5A;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.button:hover {
+    width: 350px;
+    height: 120px;
+    font-size: 40px;
+}
