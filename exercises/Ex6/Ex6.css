@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+div {
+    transition: all 0.5s;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* box of the circle */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 50px);
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+}
