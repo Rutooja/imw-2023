@@ -32,7 +32,7 @@ function Balls(x, y) {
             this.y += this.speedY * 2;
         }
         if (this.radius > 4) {
-            this.radius -= 0.7;
+            this.radius -= 0.9;
         }
         if (this.radius < 4) {
             this.radius -= 0.2;
