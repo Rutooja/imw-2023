@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.background {
+    background-image: url("stars.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Positioning content */
+.content {
+    position: relative;
+    width: 65ch;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    font-family: 'times new roman', Courier, sans-serif;
+    font-weight: 400;
+}
