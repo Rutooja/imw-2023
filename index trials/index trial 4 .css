@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    height: 100vh;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* project 1 start */
+.Project-1 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position of the circle */
+    top: 5vw;
+    left: 15vw;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    /* Add box-shadow for the glow effect */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.Project-1 p {
+    display: none;
+    color: blue;
+    text-decoration: none;
+    pointer-events: none;
+
+}
+
+.Project-1:hover p {
+    display: block;
+    opacity: 1;
+}
+
+.Project-1:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Process - project 1 */
+
+.ProjectProcess-1 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position of the circle */
+    top: 5vw;
+    left: 17vw;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    /* Add box-shadow for the glow effect */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.ProjectProcess-1 p {
+    display: none;
+    color: blue;
+    text-decoration: none;
+    pointer-events: none;
+
+}
+
+.ProjectProcess-1:hover p {
+    display: block;
+    opacity: 1;
+}
+
+.ProjectProcess-1:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+}
+
+/* project 1 end */
+
+
+
+/* Project 2 start */
+.Project-2 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position of the circle */
+    top: 13vw;
+    left: -5vw;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    /* Add box-shadow for the glow effect */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.Project-2 p {
+    display: none;
+    color: rgb(96, 21, 96);
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.Project-2:hover p {
+    display: block;
+    opacity: 1;
+}
+
+.Project-2:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+}
+
+/* process project 2 */
+.ProjectProcess-2 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position of the circle */
+    top: 13vw;
+    left: -5vw;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    /* Add box-shadow for the glow effect */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.ProjectProcess-2 p {
+    display: none;
+    color: rgb(96, 21, 96);
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.ProjectProcess-2:hover p {
+    display: block;
+    opacity: 1;
+}
+
+.ProjectProcess-2:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Project 2 end */
+
+
+/* Project 3 start */
+.Project-3 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position of the circle */
+    top: 18vw;
+    left: 5vw;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    /* Add box-shadow for the glow effect */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.Project-3 p {
+    display: none;
+    color: rgb(96, 21, 96);
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.Project-3:hover p {
+    display: block;
+    opacity: 1;
+}
+
+.Project-3:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+}
+
+
+/* Process project 3 */
+.ProjectProcess-3 {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position of the circle */
+    top: 18vw;
+    left: 5vw;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    /* Add box-shadow for the glow effect */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.ProjectProcess-3 p {
+    display: none;
+    color: rgb(96, 21, 96);
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.ProjectProcess-3:hover p {
+    display: block;
+    opacity: 1;
+}
+
+.ProjectProcess-3:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Project 3 end */
+
+/* exercise 1 start*/
+.Exercise-1 {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position of the circle */
+    top: 18vw;
+    left: 35vw;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+    /* Add box-shadow for the glow effect */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.Exercise-1 p {
+    display: none;
+    color: rgb(96, 21, 96);
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.Exercise-1:hover p {
+    display: block;
+    opacity: 1;
+}
+
+.Exercise-1:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8);
+}
+
+/* exercise 1 end*/
+
+
+
+
+
+
+
+
+
+
+/* Media Queries End */
+@media (max-width: 991px) {
+    body {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+}
+
+/* Media Queries End */
