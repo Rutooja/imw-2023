@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hoverText {
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.339);
+    cursor: pointer;
+}

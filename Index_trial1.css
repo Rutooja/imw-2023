@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: purple;
+}
+
+
+.Project-1 {
+    color: black;
+    font-size: 5vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 20px 5px aqua;
+    border-radius: 50%;
+}
+
+.Project-1 img {
+    width: 100%;
+    height: auto;
+}
+
+/* 
+.Project-2 {
+    color: black;
+    font-size: 10vw;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 5vw;
+    left: 15vw;
+} */
