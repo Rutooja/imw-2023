@@ -212,21 +212,42 @@ p {
 
 
 
+
 /* Media Queries */
-@media (max-width: 991px) {
+@media (max-width: 600px) {
     body {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-}
-
-@media (max-width:767px) {
-    body {
-        margin-left: 30px;
-        margin-right: 30px;
+        margin: 0;
     }
 
-    p {
-        font-size: 12px;
+    .Index,
+    .References {
+        width: 10vw;
+        height: 10vw;
+        font-size: 8px;
+        top: 5vw;
+        left: 5vw;
+    }
+
+
+
+    .Project {
+        width: 20vw;
+        height: 20vw;
+        top: 5vw;
+        left: -25vw;
+    }
+
+    .Exercise {
+        width: 15vw;
+        height: 15vw;
+        top: 18vw;
+        left: 15vw;
+    }
+
+    .Reading {
+        width: 12vw;
+        height: 12vw;
+        top: 18vw;
+        left: 15vw;
     }
 }
